@@ -1,0 +1,106 @@
+.wsi-link { color: #333; }
+.wsi-link:hover { text-decoration: none; }
+.wsi-list { list-style: none; margin: 0; padding: 0; }
+.wsi-list li { margin: 0.25em 0; padding: 0; }
+.wsi-list li:before { content: '\2022'; padding: 0 4px; color: #666; }
+.wsi-table { width: 100%; border-collapse: collapse; }
+.wsi-table tr { border: none !important; border-top: 1px solid #e5e5e5 !important; }
+.wsi-table td { padding: 4px !important; }
+.wsi-table tr:first-child { border: none !important; }
+
+.wsi-wrapper { padding: 10px; font: 13px/1.25 "Trebuchet MS", Arial, Tahoma, sans-serif; color: #333; }
+.wsi-wrapper img { border: 0; }
+.wsi-wrapper p { margin: 0.5em 0; padding: 0; }
+.wsi-header { color: #74604f; }
+.wsi-header-logo-img { background: url("logo-header.png") no-repeat; width: 296px; height: 67px; font-size: 26px;  }
+.wsi-header-version { position: relative; top: -38px; left: -2px; font-size: 12px; font-weight: bold; }
+.wsi-footer { margin-top: 20px; font-size: 12px; color: #7f7f7f; }
+.wsi-footer-link { color: #7f7f7f; }
+.wsi-footer-logo-img { background: url("logo-footer.png") no-repeat; width: 55px; height: 21px; vertical-align: middle; }
+.wsi-widget { position: relative; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.wsi-group { position: relative; padding: 8px; background-color: #f7f4e9; border: 1px solid #ffd9b2; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.wsi-group-collapsed { margin: 15px 0 0; }
+.wsi-group-expanded { margin: 40px 0 0; }
+.wsi-group-expanded .wsi-group-title { position: absolute; top: -22px; left: 8px; padding: 4px 0 1px; border: 1px solid #ffd9b2; border-bottom: none; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-topright: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.wsi-group-expanded .wsi-group-title-link { position: relative; padding:3px 0 1px; background: #f7f4e9 url("bg-group-title.png") left top repeat-x; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-topright: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.wsi-group-title-link { color: #666 !important; text-decoration: none; z-index: 1; }
+.wsi-group-title-link:hover { color: #ff8200 !important; }
+.wsi-group-title-link-arrow { display: inline-block; width: 10px; height: 10px; margin: 0 10px -4px; padding: 4px 0 0; }
+.wsi-group-collapsed .wsi-group-title-link-arrow { background: url("icon-arrow-right-na.png") left top no-repeat; }
+.wsi-group-expanded .wsi-group-title-link-arrow { background: url("icon-arrow-bottom-na.png") left 2px no-repeat; }
+.wsi-group-collapsed .wsi-group-title-link:hover .wsi-group-title-link-arrow { background: url("icon-arrow-right-a.png") left top no-repeat; }
+.wsi-group-expanded .wsi-group-title-link:hover .wsi-group-title-link-arrow { background: url("icon-arrow-bottom-a.png") left 2px no-repeat; }
+.wsi-group-title-link-icon { display: inline-block; width: 18px; height: 18px; margin: 0 10px -7px; background-repeat: no-repeat; }
+.wsi-group-panel .wsi-group-title-link-icon { background-image: url("icon-group-panel.png"); }
+.wsi-group-widgets .wsi-group-title-link-icon { background-image: url("icon-group-widgets.png"); }
+.wsi-group-line-top { position: absolute; left: 1px; top: 0; right: 1px; height: 3px; border-width: 1px 1px 0 0; border-style: solid; border-color: #fdfdfb #f7f4e9 #f7f4e9 #f7f4e9; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.wsi-clear { clear: both; height: 0; width: 0; font-size: 0; display: block;}
+
+
+.wsi-widget-title { font-weight: bold; }
+
+
+.wsi-widget-controls { position: absolute; z-index: 2; right: 8px; top: 8px; color: #ff8200; }
+.wsi-widget-controls-button { width: 12px; height: 12px; float: left; margin-left: 4px; cursor: pointer; }
+.wsi-widget-controls-edit { /*_*/ display: none; background: url("icon-widget-edit-na.png") no-repeat; }
+.wsi-widget-controls-edit:hover { background-image: url("icon-widget-edit-a.png"); }
+.wsi-widget-controls-hide { background: url("icon-widget-hide-na.png") no-repeat; }
+.wsi-widget-controls-hide:hover { background-image: url("icon-widget-hide-a.png"); }
+.wsi-widget-controls-delete { background: url("icon-widget-delete-na.png") no-repeat; }
+.wsi-widget-controls-delete:hover { background-image: url("icon-widget-delete-a.png"); }
+
+.wsi-widget-controls-add { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url("data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); }
+
+.wsi-group-collapsed .wsi-widget,
+.wsi-group-collapsed .wsi-widget-title { display: inline; }
+.wsi-group-collapsed .wsi-group-title { float: left; margin: 0 10px 0 1px; }
+
+.wsi-group-collapsed .wsi-widgets-short .wsi-widget { padding: 2px 10px; cursor: pointer; }
+.wsi-group-collapsed .wsi-widgets-short .wsi-widget:hover { background-color: #ffd9b2; }
+.wsi-group-expanded .wsi-widgets-short { display: inline-block; vertical-align: top; width: 32%; margin: 0 1% 0 0; }
+.wsi-group-expanded .wsi-widgets-short .wsi-widget { padding: 4px; border-top: 1px solid #e5e5e5; cursor: pointer; }
+.wsi-group-expanded .wsi-widgets-short .wsi-widget:first-child { border-top: none; }
+.wsi-group-expanded .wsi-widgets-short .wsi-widget:hover { background-color: #ffd9b2; }
+.wsi-group-expanded .wsi-widgets-short .wsi-widget-active { background-color: #ffc17f; cursor: default; }
+.wsi-group-expanded .wsi-widgets-short .wsi-widget-active:hover { background-color: #ffc17f; }
+.wsi-group-expanded .wsi-widgets-short .wsi-widget-title { font-size: 15px; }
+.wsi-group-expanded .wsi-widgets-short .wsi-widget-content-short { position: absolute; right: 10px; }
+
+.wsi-group-collapsed .wsi-widgets-detailed { display: none; }
+.wsi-group-expanded .wsi-widgets-detailed { display: inline-block; vertical-align: top; width: 67%; }
+.wsi-group-expanded .wsi-widgets-detailed .wsi-widget { display: none; }
+.wsi-group-expanded .wsi-widgets-detailed .wsi-widget-active { display: block; }
+
+.wsi-group.wsi-group-widgets.wsi-group-expanded { padding-top: 0; }
+.wsi-group-collapsed.wsi-group-widgets .wsi-widget { display: none; }
+.wsi-group-expanded.wsi-group-widgets .wsi-widget { float: left; vertical-align: top; margin: 8px 8px 0 0; padding: 4px 46px 4px 4px; background-color: #ffd9b2; }
+.wsi-group-expanded.wsi-group-widgets .wsi-widget:hover { background-color: #ffc17f; }
+.wsi-group-expanded.wsi-group-widgets .wsi-widget-group-title { display: block; padding-left: 16px; background: url("icon-arrow-sub.png") no-repeat 4px center; font-size: 12px; color: #666; }
+.wsi-group-expanded.wsi-group-widgets .wsi-widget .wsi-widget-controls { display: none; }
+.wsi-group-expanded.wsi-group-widgets .wsi-widget:hover .wsi-widget-controls { display: block; }
+
+.wsi-message { margin: 10px 0; padding: 4px 8px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.wsi-message-ok { background-color: #ffd9b2; color: #666; }
+.wsi-message-error { background-color: #ffc17f; color: #333; }
+
+.wsi-content-tip { display: inline-block; position: relative; z-index: 3; top: 2px; width: 12px; height: 12px; background: url("icon-tip-na.png"); font-size: 12px; }
+.wsi-content-tip:hover { background-image: url("icon-tip-a.png"); }
+.wsi-content-tip:hover .wsi-content-tip-bubble { visibility: visible; }
+.wsi-content-tip-bubble { visibility: hidden; display: block; position: absolute; bottom: 24px; z-index: 3; }
+.wsi-content-tip-bubble-content { width: 320px; margin-left: -50%; display: block; position: relative; z-index: 1; padding: 5px 10px; background: #ffd9b2; -moz-box-shadow: 0 4px 10px #666; -webkit-box-shadow: 0 4px 10px #000; box-shadow: 0 4px 10px #000; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.wsi-content-tip-bubble-content a { color: #fff; }
+.wsi-content-tip-bubble-p { display: block; margin: 0.5em 0; }
+.wsi-content-tip-bubble:before { content: ''; position: absolute; bottom: -12px; left: 0; width: 0; height: 7px; border-left: 7px solid transparent; z-index: 4; border-top: 6px solid #ffd9b2; border-right: 7px solid transparent; }
+
+.wsi-button-primary,
+.wsi-button-secondary { position: relative; display: inline-block; height: 20px; margin-right: 10px; padding: 2px 0 0 10px; color: #fff; text-decoration: none; }
+.wsi-button-primary-cap,
+.wsi-button-secondary-cap { position: absolute; top: 0; right: -10px; width: 10px; height: 22px; }
+.wsi-button-primary { background: url("button-primary-na.png") top left no-repeat; }
+.wsi-button-primary-cap { background: url("button-primary-cap-na.png"); }
+.wsi-button-primary:hover { background-image: url("button-primary-a.png"); }
+.wsi-button-primary:hover .wsi-button-primary-cap { background-image: url("button-primary-cap-a.png"); }
+.wsi-button-secondary { background: url("button-secondary-na.png") top left no-repeat; }
+.wsi-button-secondary-cap { background: url("button-secondary-cap-na.png"); }
+.wsi-button-secondary:hover { background-image: url("button-secondary-a.png"); }
+.wsi-button-secondary:hover .wsi-button-secondary-cap { background-image: url("button-secondary-cap-a.png"); }
