@@ -8,12 +8,19 @@ Tested up to: 3.0.1
 
 WEBO Site InSight provides all statistical information about website performance: load time, CPU usage, RAM usage, free disk space, etc.
 
+== Description ==
+
 WEBO Site InSight has a CMS-independent API, and it allows you to re-use any widgets code for all other CMS supported by WEBO Site InSight.
 
-Please read more in (project page Wiki)[http://code.google.com/p/webo-site-insight/w/list]
+Please read more in (project page Wiki)[http://code.google.com/p/webo-site-insight/w/list "project page Wiki"]
 
-= Functionality =
-WEBO Site SpeedUp integrates and exceeds functionality of many other WordPress performance-related plugins:
+== Installation ==
+
+== Frequently Asked Questions ==
+
+== Upgrade Notice ==
+
+== Screenshots ==
 
 == Changelog ==
 
