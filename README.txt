@@ -12,7 +12,7 @@ WEBO Site InSight provides all statistical information about website performance
 
 WEBO Site InSight has a CMS-independent API, and it allows you to re-use any widgets code for all other CMS supported by WEBO Site InSight.
 
-Please read more in (project page Wiki)[http://code.google.com/p/webo-site-insight/w/list "project page Wiki"]
+Please read more in [project page Wiki](http://code.google.com/p/webo-site-insight/w/list "project page Wiki")
 
 == Installation ==
 
